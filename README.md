@@ -43,3 +43,8 @@ app.use('/auth', auth.router());
 ```
 
 Then use `auth.authenticate` as middleware for protected routes.
+
+## Frontend client
+
+This repository also includes a small React client under the `client` folder.
+Start the server and open `client/index.html` in your browser to try it out.
